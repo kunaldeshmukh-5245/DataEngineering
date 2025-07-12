@@ -1,0 +1,43 @@
+Most Common Names:
+
+Alice: 3
+Bob: 2
+Grace: 2
+
+
+Average Salaries by Department:
+
+IT: 95285.0
+HR: 119250.0
+Finance: 69333.0
+
+
+High Earners (Salary > 100000):
+
+Bob: 120000
+David: 150000
+Judy: 155000
+Bob: 120000
+
+
+Salary Levels:
+
+Executive: 2
+Manager: 9
+Staff: 3
+
+
+Employee service lines:
+
+Alice: 8 years
+Bob: 10 years
+Charlie: 5 years
+David: 15 years
+Eve: 6 years
+Frank: 9 years
+Grace: 7 years
+Heidi: 8 years
+Ivan: 4 years
+Judy: 12 years
+
+
