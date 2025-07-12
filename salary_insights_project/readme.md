@@ -51,4 +51,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 This project is licensed under the MIT License.
 
 ## Contact
-For questions or feedback, please contact [your.email@example.com](mailto:your.email@example.com).
+For questions or feedback, please contact [kunaldeshmukh5245@gmail.com].
