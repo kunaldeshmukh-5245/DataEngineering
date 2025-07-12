@@ -55,23 +55,3 @@ def calculate_service_years(data):
             current_year = int(datetime.now().year)  # Assuming current year is 2023
             service_years[row['name']] = current_year - start_year
     return service_years
-
-def get_salary_statistics(data):
-    """
-    Calculate basic salary statistics: average, median, and total salary.
-    Returns a dictionary with the statistics.
-    """
-    salaries = [float(row['salary']) for row in data if 'salary' in row]
-    if not salaries:
-        return {'average': 0, 'median': 0, 'total': 0}
-    
-    total_salary = sum(salaries)
-    average_salary = total_salary / len(salaries)
-    median_salary = sorted(salaries)[len(salaries) // 2] if len(salaries) % 2 != 0 else \
-        (sorted(salaries)[len(salaries) // 2 - 1] + sorted(salaries)[len(salaries) // 2]) / 2
-    
-    return {
-        'average': average_salary,
-        'median': median_salary,
-        'total': total_salary
-    }   
