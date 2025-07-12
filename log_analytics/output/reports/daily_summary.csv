@@ -1,0 +1,5 @@
+timestamp,total_logs,avg_response_time,error_rate,error_alert,slow_alert,top_ip,top_url
+2025-07-12 13:55:08,4,167,25.0,True,False,192.168.1.1,/home
+2025-07-12 13:55:17,4,167,25.0,True,False,192.168.1.1,/home
+2025-07-12 13:55:27,4,167,25.0,True,False,192.168.1.1,/home
+2025-07-12 13:57:40,100,182.13,33.0,True,False,192.168.1.1,/home
