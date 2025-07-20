@@ -1,9 +1,0 @@
-{
-	"name": "azure-df-adventure-works-project",
-	"location": "eastus",
-	"identity": {
-		"type": "SystemAssigned",
-		"principalId": "b2effc2a-fb10-4656-a31e-8385c557d090",
-		"tenantId": "cee238d3-6b4a-4a97-a78b-31b0a6e6bd88"
-	}
-}
