@@ -1,0 +1,9 @@
+2025-07-20 10:00:01 INFO Starting the ETL pipeline
+2025-07-20 10:00:02 DEBUG Reading source file data.csv
+2025-07-20 10:00:03 ERROR Failed to read file: FileNotFoundError
+2025-07-20 10:00:04 INFO Retrying file read...
+2025-07-20 10:00:05 INFO File read successful
+2025-07-20 10:00:06 WARNING Missing values found in column: age
+2025-07-20 10:00:07 INFO Cleaning data
+2025-07-20 10:00:08 ERROR Null values encountered during transformation
+2025-07-20 10:00:09 INFO Pipeline completed with warnings

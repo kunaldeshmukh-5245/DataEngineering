@@ -1,0 +1,50 @@
+2025-07-21 20:56:59,641 - INFO - Script started.
+2025-07-21 20:56:59,641 - INFO - Starting to read file and write lines.
+2025-07-21 20:56:59,642 - INFO - Processing line: 2025-07-20 10:00:01 INFO Starting the ETL pipeline
+2025-07-21 20:56:59,642 - INFO - Processing line: 2025-07-20 10:00:02 DEBUG Reading source file data.csv
+2025-07-21 20:56:59,642 - INFO - Processing line: 2025-07-20 10:00:03 ERROR Failed to read file: FileNotFoundError
+2025-07-21 20:56:59,642 - INFO - Writing line to output file: 2025-07-20 10:00:03 ERROR Failed to read file: FileNotFoundError
+2025-07-21 20:56:59,642 - INFO - Processing line: 2025-07-20 10:00:04 INFO Retrying file read...
+2025-07-21 20:56:59,642 - INFO - Processing line: 2025-07-20 10:00:05 INFO File read successful
+2025-07-21 20:56:59,642 - INFO - Processing line: 2025-07-20 10:00:06 WARNING Missing values found in column: age
+2025-07-21 20:56:59,642 - INFO - Writing line to output file: 2025-07-20 10:00:06 WARNING Missing values found in column: age
+2025-07-21 20:56:59,642 - INFO - Processing line: 2025-07-20 10:00:07 INFO Cleaning data
+2025-07-21 20:56:59,642 - INFO - Processing line: 2025-07-20 10:00:08 ERROR Null values encountered during transformation
+2025-07-21 20:56:59,642 - INFO - Writing line to output file: 2025-07-20 10:00:08 ERROR Null values encountered during transformation
+2025-07-21 20:56:59,642 - INFO - Processing line: 2025-07-20 10:00:09 INFO Pipeline completed with warnings
+2025-07-21 20:56:59,642 - INFO - Finished processing file.
+2025-07-21 20:56:59,642 - INFO - File reading and writing completed.
+2025-07-21 20:56:59,642 - INFO - Starting to extract date with type from file.
+2025-07-21 20:56:59,643 - INFO - Processing line for date extraction: 2025-07-20 10:00:03 ERROR Failed to read file: FileNotFoundError
+2025-07-21 20:56:59,643 - INFO - Writing extracted date to output file: 2025-07-20 10:00:03 ERROR
+2025-07-21 20:56:59,643 - INFO - Processing line for date extraction: 2025-07-20 10:00:06 WARNING Missing values found in column: age
+2025-07-21 20:56:59,643 - INFO - Writing extracted date to output file: 2025-07-20 10:00:06 WARNING
+2025-07-21 20:56:59,643 - INFO - Processing line for date extraction: 2025-07-20 10:00:08 ERROR Null values encountered during transformation
+2025-07-21 20:56:59,643 - INFO - Writing extracted date to output file: 2025-07-20 10:00:08 ERROR
+2025-07-21 20:56:59,643 - INFO - Finished extracting date with type from file.
+2025-07-21 20:56:59,643 - INFO - Date extraction completed.
+2025-07-21 21:05:28,749 - INFO - Script started.
+2025-07-21 21:05:28,749 - INFO - Starting to read file and write lines.
+2025-07-21 21:05:28,750 - INFO - Processing line: 2025-07-20 10:00:01 INFO Starting the ETL pipeline
+2025-07-21 21:05:28,750 - INFO - Processing line: 2025-07-20 10:00:02 DEBUG Reading source file data.csv
+2025-07-21 21:05:28,750 - INFO - Processing line: 2025-07-20 10:00:03 ERROR Failed to read file: FileNotFoundError
+2025-07-21 21:05:28,750 - INFO - Writing line to output file: 2025-07-20 10:00:03 ERROR Failed to read file: FileNotFoundError
+2025-07-21 21:05:28,750 - INFO - Processing line: 2025-07-20 10:00:04 INFO Retrying file read...
+2025-07-21 21:05:28,750 - INFO - Processing line: 2025-07-20 10:00:05 INFO File read successful
+2025-07-21 21:05:28,750 - INFO - Processing line: 2025-07-20 10:00:06 WARNING Missing values found in column: age
+2025-07-21 21:05:28,750 - INFO - Writing line to output file: 2025-07-20 10:00:06 WARNING Missing values found in column: age
+2025-07-21 21:05:28,750 - INFO - Processing line: 2025-07-20 10:00:07 INFO Cleaning data
+2025-07-21 21:05:28,750 - INFO - Processing line: 2025-07-20 10:00:08 ERROR Null values encountered during transformation
+2025-07-21 21:05:28,750 - INFO - Writing line to output file: 2025-07-20 10:00:08 ERROR Null values encountered during transformation
+2025-07-21 21:05:28,750 - INFO - Processing line: 2025-07-20 10:00:09 INFO Pipeline completed with warnings
+2025-07-21 21:05:28,750 - INFO - Finished processing file.
+2025-07-21 21:05:28,750 - INFO - File reading and writing completed.
+2025-07-21 21:05:28,750 - INFO - Starting to extract date with type from file.
+2025-07-21 21:05:28,751 - INFO - Processing line for date extraction: 2025-07-20 10:00:03 ERROR Failed to read file: FileNotFoundError
+2025-07-21 21:05:28,751 - INFO - Writing extracted date to output file: 2025-07-20 10:00:03 ERROR
+2025-07-21 21:05:28,751 - INFO - Processing line for date extraction: 2025-07-20 10:00:06 WARNING Missing values found in column: age
+2025-07-21 21:05:28,751 - INFO - Writing extracted date to output file: 2025-07-20 10:00:06 WARNING
+2025-07-21 21:05:28,751 - INFO - Processing line for date extraction: 2025-07-20 10:00:08 ERROR Null values encountered during transformation
+2025-07-21 21:05:28,751 - INFO - Writing extracted date to output file: 2025-07-20 10:00:08 ERROR
+2025-07-21 21:05:28,751 - INFO - Finished extracting date with type from file.
+2025-07-21 21:05:28,751 - INFO - Date extraction completed.
